@@ -38,3 +38,23 @@ Postman – for manual verification and API testing
     ├── test_comments.py       # Automated tests using pytest
     ├── __init__.py            # Package initializer
     └── requirements.txt       # Dependencies (Flask, SQLAlchemy, pytest, etc.)
+
+#Testing and Validation
+
+I tested the APIs in two ways:
+
+-Manual Testing (Postman)
+
+Verified all endpoints individually using sample JSON data.
+
+Confirmed creation, update, and deletion were reflected correctly.
+
+-Automated Testing (Pytest)
+
+Created a test file test_comments.py with three main test cases:
+
+test_create_comment → verifies POST functionality
+
+test_update_comment → verifies PUT operation
+
+test_delete_comment → verifies DELETE functionality
